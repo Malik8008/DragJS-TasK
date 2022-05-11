@@ -1,0 +1,37 @@
+body{
+    display: flex;
+}
+
+.circles{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 10%;
+    .circle1{
+    padding: 50px;
+    border-radius: 100px;
+    margin-left: 30px;
+    }
+    .circle2{
+    padding: 50px;
+    border-radius: 100px;
+    margin-left: 30px;
+    }
+    .circle3{
+    padding: 50px;
+    border-radius: 100px;
+    margin-left: 30px;
+    }
+}
+
+.bigcircle{
+    margin-left: 40%;
+    margin-top: 5%;
+    .dropcircle{
+        border: 1px solid black;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+}
